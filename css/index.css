@@ -1,0 +1,124 @@
+/* ----------------------------------------------
+    Global
+---------------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headings {
+    font-family: 'Ramaraja', serif;
+    font-size: 72px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #4b4b4b;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ----------------------------------------------
+    Logo
+---------------------------------------------- */
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin:0px 40px 0px 40px;
+    letter-spacing: -0.2%;
+}
+
+.logo_dot {
+    color: #4F56F1;
+}
+
+/* ----------------------------------------------
+    Navigation
+---------------------------------------------- */
+ul {
+    list-style-type: none;
+
+}
+.global_nav {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.nav_item {
+    display: inline-block;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 6px;
+}
+
+.nav_item:hover {
+    background-color: #e2e6ea;
+     /* QUESTION! */
+}
+
+/* ----------------------------------------------
+    Hero Section
+---------------------------------------------- */
+
+.hero {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 90px;
+    gap: 100px;
+    align-items: center;
+}
+
+
+.hero_left_div {
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    gap: 32px;
+    max-width: 500px;
+}
+
+.hero_right_div {
+    width: 600px;
+    margin-top: auto;
+}
+
+.hero_illustration { 
+    /* QUESTION! */
+    width: 600px;
+}
+
+/* ----------------------------------------------
+    Button
+---------------------------------------------- */
+
+.hero_btn {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    background-color:#4F56F1;
+    color: #fcfcfd;
+    padding: 18px 32px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.hero_btn:hover {
+    background-color: #3b44c1;
+}
